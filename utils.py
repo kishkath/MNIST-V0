@@ -67,7 +67,7 @@ class Plots:
             sub = fig.add_subplot(self.num_rows, 4, i + 1)
             im2display = (np.squeeze(batch_data[i].permute(2, 1, 0)))
             sub.imshow(im2display.cpu().numpy())
-            sub.set_title(batch_label[i][0])
+            sub.set_title(batch_label[i].item())
             sub.axis('off')
 
         plt.tight_layout()
@@ -89,8 +89,15 @@ class Plots:
             axs[1, 1].plot(test_acc)
             axs[1, 1].set_title("Test Accuracy")
 
+train_losses = []
+test_losses = []
+train_acc = []
+test_acc = []
+
+test_incorrect_pred = {'images': [], 'ground_truths': [], 'predicted_vals': []}
 
 class Performance:
+
     def __init__(self, device, model, data,optimizer,criterion):
         self.device = device
         self.model = model
@@ -155,3 +162,6 @@ class Performance:
         print('Test set: Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)\n'.format(
             test_loss, correct, len(self.test_loader.dataset),
             100. * correct / len(self.test_loader.dataset)))
+
+def scores():
+    return train_acc, train_losses, test_acc, test_losses
