@@ -164,4 +164,4 @@ class Performance:
             100. * correct / len(self.test_loader.dataset)))
 
 def scores():
-    return train_acc, train_losses, test_acc, test_losses
+    return train_losses,train_acc,test_losses,test_acc
