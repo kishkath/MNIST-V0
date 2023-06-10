@@ -2,9 +2,9 @@
 
 ## Learnable Parameters Navigation 
 
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/dbbf36be-2034-465f-941a-77d0043de4f9" width = 360 height = 360>
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/dbbf36be-2034-465f-941a-77d0043de4f9" width = 600 height = 360>
 
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/9aae722e-7a34-40f2-aa31-7235dc7f66ad" width = 360 height = 360>
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/9aae722e-7a34-40f2-aa31-7235dc7f66ad" width = 600 height = 360>
 
 
 
