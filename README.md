@@ -2,9 +2,9 @@
 
 ## Learnable Parameters Navigation 
 
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/dbbf36be-2034-465f-941a-77d0043de4f9" width = 600 height = 360>
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/dbbf36be-2034-465f-941a-77d0043de4f9" width = 720 height = 360>
 
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/9aae722e-7a34-40f2-aa31-7235dc7f66ad" width = 600 height = 360>
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/9aae722e-7a34-40f2-aa31-7235dc7f66ad" width = 720 height = 360>
 
 
 
@@ -33,13 +33,13 @@ Reference: https://towardsdatascience.com/understanding-backpropagation-abcc509c
     
 * Figure: Calculating derivatives of first layer from last
 
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/2b6851d0-839c-48d8-9b3f-e7ae2a49ee07" width = 600 height = 360>
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/2b6851d0-839c-48d8-9b3f-e7ae2a49ee07" width = 720 height = 360>
 
 * Figure: Calculating derivatives of second layer from last
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/c8e2b46b-bc7b-4f33-be96-108d954b26f8" width = 600 height = 360>
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/c8e2b46b-bc7b-4f33-be96-108d954b26f8" width = 720 height = 360>
           
 * Figure: varying error plots with varying learning rate values
-<img src= "https://github.com/kishkath/S6-MNIST-V1/assets/60026221/33510b7d-f24a-49ce-ab0a-34a18d208e61" width = 600 height = 360>
+<img src= "https://github.com/kishkath/S6-MNIST-V1/assets/60026221/33510b7d-f24a-49ce-ab0a-34a18d208e61" width = 720 height = 360>
 
 
 ## Part2: Achieving Desired Accuracy
@@ -47,7 +47,8 @@ Reference: https://towardsdatascience.com/understanding-backpropagation-abcc509c
 * Designing the neural network for MNIST dataset such that it achieves the accuracy of 99.4%.
 * The notebook contains all the related work for the achieving the accuracy: https://github.com/kishkath/S6-MNIST-V1/blob/main/ERA_S6_Finalised.ipynb
 * The neural network is designed in a way to be as a lighter model.
-                  
+                
+                Architecture: Conv1 -> Conv2 -> MaxPool -> Conv3 -> Dropout -> Conv4 -> Conv5 -> Dropout -> Conv6 -> Dropout -> Conv7 -> GAP(3)
                'Its a lighter model right!'
                ---------------------------
                Total params: 16,050
