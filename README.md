@@ -41,4 +41,46 @@ Reference: https://towardsdatascience.com/understanding-backpropagation-abcc509c
 * Figure: varying error plots with varying learning rate values
 <img src= "https://github.com/kishkath/S6-MNIST-V1/assets/60026221/33510b7d-f24a-49ce-ab0a-34a18d208e61" width = 600 height = 360>
 
+
+## Part2: Achieving Desired Accuracy
+
+* Designing the neural network for MNIST dataset such that it achieves the accuracy of 99.4%.
+* The notebook contains all the related work for the achieving the accuracy: https://github.com/kishkath/S6-MNIST-V1/blob/main/ERA_S6_Finalised.ipynb
+* The neural network is designed in a way to be as a lighter model.
+                  
+               'Its a lighter model right!'
+               ---------------------------
+               Total params: 16,050
+               Input size (MB): 0.00
+               Forward/backward pass size (MB): 0.66
+               Params size (MB): 0.06
+               Estimated Total Size (MB): 0.73
+ 
+ * The last 6 epoch runs: 
+              
+              Epoch 16
+              Train: Loss=0.0232 Batch_id=468 Accuracy=98.94: 100%|██████████| 469/469 [00:24<00:00, 18.98it/s]
+              Test set: Average loss: 0.0002, Accuracy: 9949/10000 (99.49%)
+
+              Adjusting learning rate of group 0 to 1.0000e-05.
+              Epoch 17
+              Train: Loss=0.0150 Batch_id=468 Accuracy=98.96: 100%|██████████| 469/469 [00:25<00:00, 18.68it/s]
+              Test set: Average loss: 0.0002, Accuracy: 9950/10000 (99.50%)
+
+              Adjusting learning rate of group 0 to 1.0000e-05.
+              Epoch 18
+              Train: Loss=0.0436 Batch_id=468 Accuracy=98.96: 100%|██████████| 469/469 [00:25<00:00, 18.70it/s]
+              Test set: Average loss: 0.0002, Accuracy: 9952/10000 (99.52%)
+
+              Adjusting learning rate of group 0 to 1.0000e-05.
+              Epoch 19
+              Train: Loss=0.0134 Batch_id=468 Accuracy=98.97: 100%|██████████| 469/469 [00:25<00:00, 18.55it/s]
+              Test set: Average loss: 0.0002, Accuracy: 9948/10000 (99.48%)
+
+              Adjusting learning rate of group 0 to 1.0000e-05.
+              Epoch 20
+              Train: Loss=0.0292 Batch_id=468 Accuracy=98.94: 100%|██████████| 469/469 [00:25<00:00, 18.41it/s]
+              Test set: Average loss: 0.0002, Accuracy: 9954/10000 (99.54%)
                  
+
+* Final result: "Achieved desired Test-Accuracy"
