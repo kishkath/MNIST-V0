@@ -25,16 +25,20 @@ Reference: https://towardsdatascience.com/understanding-backpropagation-abcc509c
       Third layer: The outputs of second layer using newly formed weights (W5,W6,W7,W8) computes with an activation function and gets the loss. 
 
 
-The main procedure of backpropagation is that the obtained loss which inturn computes from back to first layer.
+* The main procedure of backpropagation is that the obtained loss which inturn computes from last to first layer.
 
-The loss computes gradients w.r.t parameters, like the weights (W5,W6,W7,W8) finds their rate of change of loss w.r.t to change in weights using chain rule including activation functions in between.                                        
+* The loss computes gradients w.r.t parameters, like the weights (W5,W6,W7,W8) finds their rate of change of loss w.r.t to change in weights using chain rule including activation functions in between.                                        
                                      
-                * We Compute using chain rule dL/dw5, dL/dw6, dL/dw7, dL/dw8, dL/dw1, dL/dw2, dL/dw3, dL/dw4
+                * We Compute this derivatives dL/dw5, dL/dw6, dL/dw7, dL/dw8, dL/dw1, dL/dw2, dL/dw3, dL/dw4 using chain rule 
     
+* Figure: Calculating derivatives of first layer from last
+
 <img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/2b6851d0-839c-48d8-9b3f-e7ae2a49ee07" width = 600 height = 360>
 
+* Figure: Calculating derivatives of second layer from last
 <img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/c8e2b46b-bc7b-4f33-be96-108d954b26f8" width = 600 height = 360>
           
+* Figure: varying error plots with varying learning rate values
 <img src= "https://github.com/kishkath/S6-MNIST-V1/assets/60026221/33510b7d-f24a-49ce-ab0a-34a18d208e61" width = 600 height = 360>
 
                  
