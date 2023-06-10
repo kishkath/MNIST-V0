@@ -1,7 +1,12 @@
 # MNIST-V0
-A CNN architecture desired to achieve 99.4 validation accuracy on top of pytorch framework.
 
-Part1: Backpropagation
+# Learnable Parameters Navigation 
+
+![forwardpass](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/9aae722e-7a34-40f2-aa31-7235dc7f66ad)
+
+## Part1: Backpropagation
+
+Reference: https://towardsdatascience.com/understanding-backpropagation-abcc509ca9d0
 
 Backpropagation is a way of finding the gradients of loss & helps in updating the learnable parameters as in a way of making the model converge to global minima. 
 
@@ -19,17 +24,17 @@ Process of Backpropagation:
 
 The main procedure of backpropagation is that the obtained loss which inturn computes from back to first layer.
 
-The loss computes gradients w.r.t parameters, like the weights (W5,W6,W7,W8) finds their rate of change of loss w.r.t to change in weights using chain rule including activation functions in between.   
+The loss computes gradients w.r.t parameters, like the weights (W5,W6,W7,W8) finds their rate of change of loss w.r.t to change in weights using chain rule including activation functions in between.                                        
                                      
-                                     
-                                     ###A Sample: dl/dW5
+                * We Compute using chain rule dL/dw5, dL/dw6, dL/dw7, dL/dw8, dL/dw1, dL/dw2, dL/dw3, dL/dw4
+    
+![1stlayer](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/2b6851d0-839c-48d8-9b3f-e7ae2a49ee07)
 
+![2ndlayer](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/c8e2b46b-bc7b-4f33-be96-108d954b26f8)
 
+![diagram](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/dbbf36be-2034-465f-941a-77d0043de4f9)
 
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/121074e9-7acd-4d88-9041-63adf0dfab35" width = 256 height = 256>
+![lr_plots](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/33510b7d-f24a-49ce-ab0a-34a18d208e61)
 
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/40cfca94-016c-4050-97db-89e127420329" width = 256 height = 256>
-
-<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/8035554a-842b-4553-bfd5-d13c7a9db902" width = 256 height = 256>
-
-
+                 
+                
