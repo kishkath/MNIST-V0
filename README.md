@@ -1,8 +1,12 @@
 # MNIST-V0
 
-# Learnable Parameters Navigation 
+## Learnable Parameters Navigation 
 
-![forwardpass](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/9aae722e-7a34-40f2-aa31-7235dc7f66ad)
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/dbbf36be-2034-465f-941a-77d0043de4f9" width = 360 height = 360>
+
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/9aae722e-7a34-40f2-aa31-7235dc7f66ad" width = 360 height = 360>
+
+
 
 ## Part1: Backpropagation
 
@@ -28,13 +32,10 @@ The loss computes gradients w.r.t parameters, like the weights (W5,W6,W7,W8) fin
                                      
                 * We Compute using chain rule dL/dw5, dL/dw6, dL/dw7, dL/dw8, dL/dw1, dL/dw2, dL/dw3, dL/dw4
     
-![1stlayer](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/2b6851d0-839c-48d8-9b3f-e7ae2a49ee07)
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/2b6851d0-839c-48d8-9b3f-e7ae2a49ee07" width = 360 height = 360>
 
-![2ndlayer](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/c8e2b46b-bc7b-4f33-be96-108d954b26f8)
-
-![diagram](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/dbbf36be-2034-465f-941a-77d0043de4f9)
-
-![lr_plots](https://github.com/kishkath/S6-MNIST-V1/assets/60026221/33510b7d-f24a-49ce-ab0a-34a18d208e61)
+<img src="https://github.com/kishkath/S6-MNIST-V1/assets/60026221/c8e2b46b-bc7b-4f33-be96-108d954b26f8" width = 360 height = 360>
+          
+<img src= "https://github.com/kishkath/S6-MNIST-V1/assets/60026221/33510b7d-f24a-49ce-ab0a-34a18d208e61" width = 360 height = 360>
 
                  
-                
